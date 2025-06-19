@@ -17,3 +17,8 @@ atom    : INT|FLOAT|IDENTIFIER
         : LPAREN expr RPAREN
 
 ! a
+
+
+if-expr	: KEYWORD:agar expr KEYWORD:to_fir expr
+        (KEYWORD:warna_agar expr KEYWORD:to_fir expr)*
+        (KEYWORD:warna expr)?

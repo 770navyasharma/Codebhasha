@@ -1,8 +1,8 @@
-import basic
+import codebhasha
 
 while True:
-    text = input('boliye >> ')
-    result, error = basic.run('<stdin>', text)
+    text = input('codebhasha >> ')
+    result, error = codebhasha.run('<stdin>', text)
     
     if error:
         print(error.as_string())
